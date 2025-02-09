@@ -1,0 +1,128 @@
+.roboto {
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+body {
+    font-family: roboto;
+    background-color: #371273;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+h4{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.presentation {
+    text-align: center;
+    margin: 0px 100px 30px 100px;
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 50px 200px 20px 200px;
+    background-color: whitesmoke;
+
+}
+
+.link-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+
+.link {
+    margin: 20px;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+    border: 10px solid #180930;;
+    padding: 10px;
+    background-color: #180930;;
+    border-radius: 20px;
+}
+
+a:hover {
+    color: black;
+    background-color: whitesmoke;
+    border: 10px solid whitesmoke;
+}
+
+
+
+.profile-image {
+    height: 150px;
+    width: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.experience-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+    justify-content: space-between;
+}
+
+.experience-card {
+    width: calc(33.33% - 20px); 
+    margin: 10px 0;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-sizing: border-box; 
+    max-width: 100%; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.education-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px; 
+    justify-content: space-between;
+}
+
+
+.bouton-company{
+color: black;
+text-decoration: none;
+border: 10px solid #a4a4ec;;
+padding: 10px;
+background-color: #a4a4ec;;
+border-radius: 20px;
+
+}
+
+
