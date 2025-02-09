@@ -9,7 +9,7 @@
 
 body {
     font-family: roboto;
-    background-color: #371273;
+    background-color: #004b8f;
 }
 
 h1 {
@@ -69,9 +69,9 @@ h4{
 a {
     color: whitesmoke;
     text-decoration: none;
-    border: 10px solid #180930;;
+    border: 10px solid #011930;;
     padding: 10px;
-    background-color: #180930;;
+    background-color: #011930;;
     border-radius: 20px;
 }
 
@@ -122,9 +122,9 @@ a:hover {
 .bouton-company{
 color: black;
 text-decoration: none;
-border: 10px solid #a4a4ec;;
+border: 10px solid #81bef6;;
 padding: 10px;
-background-color: #a4a4ec;;
+background-color: #81bef6;;
 border-radius: 20px;
 
 }
