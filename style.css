@@ -194,6 +194,35 @@ border-radius: 20px;
         flex-direction: column;
         gap: 20px;
     }
+
+    .container {
+        text-align: center;
+    }
+
+    .profile-image {
+        width: 120px;
+        height: auto;
+        margin-bottom: 15px;
+    }
+
+    .presentation {
+        margin: 10px 20px;
+        font-size: 16px;
+    }
+
+    .link-container {
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .link a {
+        display: block;
+        text-align: center;
+        width: 80%;
+        font-size: 14px;
+        padding: 10px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -222,6 +251,23 @@ border-radius: 20px;
         padding: 8px;
         font-size: 14px;
     }
+    h1 {
+        font-size: 28px;
+    }
+
+    .profile-image {
+        width: 100px;
+    }
+
+    .presentation {
+        font-size: 14px;
+    }
+
+    .link a {
+        width: 90%;
+        font-size: 12px;
+    }
 }
+
 
 
