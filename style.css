@@ -157,106 +157,56 @@ border-radius: 20px;
 }
 
 @media (max-width: 768px) {
-    h1 {
-        font-size: 40px;
-    }
-
-    h2 {
-        font-size: 35px;
-    }
-
-    h3 {
-        font-size: 22px;
-    }
-
-    h4 {
-        font-size: 18px;
-    }
-
     .container {
-        margin: 20px 30px;
+        width: 90%;
+        max-width: 600px;
         padding: 15px;
     }
 
-    .link-container {
-        flex-direction: column;
-    }
-
-    .presentation {
-        margin: 0px 20px;
-    }
-
-    .experience-card {
-        width: 100%; /* 1 colonne sur mobile */
-    }
-    
-    .education-container {
-        flex-direction: column;
-        gap: 20px;
-    }
-
-    .container {
-        text-align: center;
-    }
-
-    .profile-image {
-        width: 120px;
-        height: auto;
-        margin-bottom: 15px;
-    }
-
-    .presentation {
-        margin: 10px 20px;
-        font-size: 16px;
-    }
-
-    .link-container {
-        flex-direction: column;
-        gap: 10px;
-        width: 100%;
-    }
-
-    .link a {
-        display: block;
-        text-align: center;
-        width: 80%;
-        font-size: 14px;
-        padding: 10px;
-    }
-}
-
-@media (max-width: 480px) {
-    h1 {
-        font-size: 30px;
-    }
-
-    h2 {
-        font-size: 28px;
-    }
-
-    h3 {
-        font-size: 20px;
-    }
-
-    .container {
-        margin: 15px;
-        padding: 10px;
-    }
-
-    .link {
-        margin: 10px 0;
-    }
-
-    a {
-        padding: 8px;
-        font-size: 14px;
-    }
     h1 {
         font-size: 28px;
     }
 
     .profile-image {
         width: 100px;
+    }
+
+    .presentation {
+        font-size: 16px;
+        width: 90%;
+    }
+
+    .link-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .link a {
+        width: 80%;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    h2 {
+        font-size: 10px;
+    }
+
+    h3 {
+        font-size: 15px;
+    }
+    .container {
+        width: 95%;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .profile-image {
+        width: 80px;
     }
 
     .presentation {
