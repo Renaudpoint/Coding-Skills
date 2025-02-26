@@ -143,30 +143,84 @@ border-radius: 20px;
 }
 
 @media (max-width: 1024px) {
-    .banner h1 {
-        font-size: 40px;
+    .container {
+        margin: 30px 50px;
     }
-    .banner h2 {
-        font-size: 25px;
+
+    .presentation {
+        margin: 0px 50px 20px 50px;
     }
+
     .experience-card {
-        width: calc(50% - 20px);
+        width: calc(50% - 20px); /* 2 colonnes sur tablette */
     }
 }
 
 @media (max-width: 768px) {
-    .banner h1 {
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    h4 {
+        font-size: 18px;
+    }
+
+    .container {
+        margin: 20px 30px;
+        padding: 15px;
+    }
+
+    .link-container {
+        flex-direction: column;
+    }
+
+    .presentation {
+        margin: 0px 20px;
+    }
+
+    .experience-card {
+        width: 100%; /* 1 colonne sur mobile */
+    }
+    
+    .education-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
         font-size: 30px;
     }
-    .banner h2 {
+
+    h2 {
+        font-size: 28px;
+    }
+
+    h3 {
         font-size: 20px;
     }
-    .experience-container {
-        flex-direction: column;
-        align-items: center;
+
+    .container {
+        margin: 15px;
+        padding: 10px;
     }
-    .experience-card {
-        width: 100%;
+
+    .link {
+        margin: 10px 0;
+    }
+
+    a {
+        padding: 8px;
+        font-size: 14px;
     }
 }
 
