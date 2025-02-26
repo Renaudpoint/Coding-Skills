@@ -143,22 +143,4 @@ border-radius: 20px;
 }
 
 
-.banner {
-    background-size: cover;     
-    background-position: center;
-    background-image: url(image/IMG_2176.jpg);
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    border: 1px solid black;
-    border-radius: 20px;
-    margin: 0px 0px 0px 0px;
-    background-color: whitesmoke;
-    }
-    
-    .banner h1 {
-        color: whitesmoke;
-        font-size: 50px;
-      }
-
 
